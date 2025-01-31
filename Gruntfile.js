@@ -235,7 +235,7 @@ module.exports = function (grunt) {
   });
   grunt.registerTask("styles", ["sasslint", "sass", "postcss"]);
   grunt.registerTask("markup", ["concat:component_macros", "nunjucks"]);
-  grunt.registerTask("svg", ["svgmin", "svg_sprite"]);
+  grunt.registerTask("svg", ["svg_sprite"]);
   grunt.registerTask("build-dist", [
     "copy:vendor_assets",
     "concat:component_scripts",
