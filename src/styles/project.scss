@@ -74,7 +74,7 @@ a {
 .es-web-tool__title {
     align-items: center;
     display: flex;
-    font-size: $font-size-h3;
+    font-size: $font-size-h4;
     font-weight: 300;
     margin: 0;
     padding: $spacing-md;
@@ -83,9 +83,9 @@ a {
 
 .es-web-tool__title-logo {
     fill: $color-black;
-    height: 30px;
+    height: 50px;
     margin-right: $spacing-md / 2;
-    width: 30px;
+    width: 120px;
 }
 
 .es-web-tool__title-text {
